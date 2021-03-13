@@ -9,7 +9,7 @@ const timer = document.getElementById("timer");
 
 function pageLoad() {
   gobutton.onclick = register;
-} 
+}
 // function register() {
 //   let minute = parseFloat(min.value);
 //   let second = parseFloat(sec.value);
@@ -23,7 +23,7 @@ let register = setInterval(function () {
   let minute = parseFloat(min.value);
   let second = parseFloat(sec.value);
 
-  let time = new Date(`March 13, 2021 ${hour}:${minute}:${second}`).getTime();
+  let time = new Date(`March 14, 2021 ${hour}:${minute}:${second}`).getTime();
   let now = new Date().getTime();
 
   let distance = time - now;
